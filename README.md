@@ -47,5 +47,8 @@ A software developer with experience in building scalable and efficient Web and 
 ![Android](https://img.shields.io/badge/android-%23239120.svg?&style=for-the-badge&logo=android&logoColor=white) ![PHP](https://img.shields.io/badge/php-%233776AB.svg?&style=for-the-badge&logo=php&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23F7DF1E.svg?&style=for-the-badge&logo=firebase&logoColor=white) ![Html5](https://img.shields.io/badge/html5-%23239120.svg?&style=for-the-badge&logo=html5&logoColor=white) ![JAVA](https://img.shields.io/badge/java-%23E16C05.svg?&style=for-the-badge&logo=java&logoColor=white) ![NPM](https://img.shields.io/badge/node.js-%2387c000.svg?&style=for-the-badge&logo=npm&logoColor=white) ![Git](https://img.shields.io/badge/git-%23ea4e31.svg?&style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23000000.svg?&style=for-the-badge&logo=github&logoColor=white) ![Android Studio](https://img.shields.io/badge/AndroidStudio-%234cea8c.svg?&style=for-the-badge&logo=android-studio&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%234f7d9e.svg?&style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Prashant-123&show_icons=true)
+---
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Prashant-123)
 
 👇 My Favourite Repos are 👇
