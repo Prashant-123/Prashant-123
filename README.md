@@ -35,7 +35,7 @@
 
 ---
 
-### 🍱 [SmartChef – Recipe Finder]
+### 🍱 SmartChef – Recipe Finder
 > Search dishes by ingredients, watch videos, and cook like a pro.
 
 - 2.5k+ registered users globally  
