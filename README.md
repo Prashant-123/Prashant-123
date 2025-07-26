@@ -55,15 +55,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Prashant-123&show_icons=true&theme=radical&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prashant-123&layout=compact&theme=radical&hide_border=true" />
-</div>
-
----
-
 ## 📬 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dev-prashant/)
