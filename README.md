@@ -8,7 +8,7 @@
 
 ## 🧾 Resume & Portfolio
 
-- 📄 [Download My Resume](./Prashant_Resume.pdf)
+- 📄 [Download My Resume]([./Prashant_Resume.pdf](https://drive.google.com/file/d/1jSpvLyLf4881LQx1N5XgoQjIuQZy45iy/view?usp=sharing))
 - 🌐 [Portfolio – pklabs.in](https://pklabs.in)
 
 ---
@@ -35,7 +35,7 @@
 
 ---
 
-### 🍱 [SmartChef – Recipe Finder](https://smartchef.tech)
+### 🍱 [SmartChef – Recipe Finder]
 > Search dishes by ingredients, watch videos, and cook like a pro.
 
 - 2.5k+ registered users globally  
