@@ -8,7 +8,7 @@
 
 ## 🧾 Resume & Portfolio
 
-- 📄 [Download My Resume]([./Prashant_Resume.pdf](https://drive.google.com/file/d/1jSpvLyLf4881LQx1N5XgoQjIuQZy45iy/view?usp=sharing))
+- 📄 [Download My Resume](https://drive.google.com/file/d/1jSpvLyLf4881LQx1N5XgoQjIuQZy45iy/view?usp=sharing)
 - 🌐 [Portfolio – pklabs.in](https://pklabs.in)
 
 ---
