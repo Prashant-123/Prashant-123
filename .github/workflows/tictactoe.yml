@@ -1,0 +1,48 @@
+name: Tic-tac-toe
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: tictactoe
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Play move
+        id: move
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          node .github/scripts/ttt.js "$TITLE" "$PLAYER" > reply.txt
+          cat reply.txt
+
+      - name: Commit board
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "ttt-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game.json
+          git diff --cached --quiet || git commit -m "ttt: move by @$PLAYER"
+          git push
+
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          printf '%s\n\n[↩ Back to the board](https://github.com/${{ github.repository_owner }})' "$(cat reply.txt)" > body.md
+          gh issue comment "$NUMBER" --body-file body.md
+          gh issue close "$NUMBER"

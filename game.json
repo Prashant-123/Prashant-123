@@ -1,0 +1,23 @@
+{
+  "board": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "over": false,
+  "winner": null,
+  "line": null,
+  "stats": {
+    "human": 0,
+    "bot": 0,
+    "draw": 0,
+    "wins": {}
+  },
+  "log": []
+}

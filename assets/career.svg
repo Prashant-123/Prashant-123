@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="262" viewBox="0 0 900 262">
+<style>
+  text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .t{font-size:14px;font-weight:700}
+  .tag{font-size:11px;fill:#c9d1d9}
+  .sub{font-size:10px;fill:#8b949e}
+  .path{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 3.4s ease-out .2s forwards}
+  .n{opacity:0;transform-box:fill-box;animation:pop .6s cubic-bezier(.2,1.6,.4,1) forwards}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-out 3.6s infinite}
+  .cur{animation:blink 1s steps(1) infinite}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @keyframes pulse{from{transform:scale(1);opacity:1}to{transform:scale(3.2);opacity:0}}
+  @keyframes blink{50%{opacity:0}}
+</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7ee787"/><stop offset=".35" stop-color="#d2a8ff"/><stop offset=".7" stop-color="#ff7b72"/><stop offset="1" stop-color="#39ff14"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#161b22"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="260" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect x="2" y="34" width="896" height="226" rx="10" fill="url(#grid)"/>
+<circle cx="22" cy="18" r="5" fill="#ff5f56"/><circle cx="40" cy="18" r="5" fill="#ffbd2e"/><circle cx="58" cy="18" r="5" fill="#27c93f"/>
+<text x="450.0" y="22" text-anchor="middle" font-size="12" fill="#8b949e">prashant@career: ~ — git log --graph --all</text>
+<line x1="1" y1="34" x2="899" y2="34" stroke="#30363d"/>
+<path d="M35,112 L115,112 C171.0,112 171.0,158 227,158 C283.0,158 283.0,112 339,112 C395.0,112 395.0,158 451,158 C507.0,158 507.0,112 563,112 C619.0,112 619.0,158 675,158 C731.0,158 731.0,112 787,112 L862,112" fill="none" stroke="#39ff14" stroke-opacity=".12" stroke-width="10"/>
+<path class="path" d="M35,112 L115,112 C171.0,112 171.0,158 227,158 C283.0,158 283.0,112 339,112 C395.0,112 395.0,158 451,158 C507.0,158 507.0,112 563,112 C619.0,112 619.0,158 675,158 C731.0,158 731.0,112 787,112 L862,112" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+<g class="n" style="animation-delay:0.40s">
+  <circle cx="115" cy="112" r="9" fill="#0d1117" stroke="#7ee787" stroke-width="3"/>
+  <circle cx="115" cy="112" r="3.5" fill="#7ee787"/>
+  <text x="115" y="72" text-anchor="middle" class="t" fill="#7ee787">2016</text>
+  <text x="115" y="87" text-anchor="middle" class="tag"><tspan fill="#8b949e">[</tspan>git init<tspan fill="#8b949e">]</tspan></text>
+  <text x="115" y="55" text-anchor="middle" class="sub">Unity games: Line-Strike, Drag-Jump</text>
+</g><g class="n" style="animation-delay:0.85s">
+  <circle cx="227" cy="158" r="9" fill="#0d1117" stroke="#79c0ff" stroke-width="3"/>
+  <circle cx="227" cy="158" r="3.5" fill="#79c0ff"/>
+  <text x="227" y="194" text-anchor="middle" class="t" fill="#79c0ff">SSCBS</text>
+  <text x="227" y="209" text-anchor="middle" class="tag"><tspan fill="#8b949e">[</tspan>campus dev<tspan fill="#8b949e">]</tspan></text>
+  <text x="227" y="224" text-anchor="middle" class="sub">built the SSCBS college app</text>
+</g><g class="n" style="animation-delay:1.30s">
+  <circle cx="339" cy="112" r="9" fill="#0d1117" stroke="#d2a8ff" stroke-width="3"/>
+  <circle cx="339" cy="112" r="3.5" fill="#d2a8ff"/>
+  <text x="339" y="72" text-anchor="middle" class="t" fill="#d2a8ff">hackCBS 2.0</text>
+  <text x="339" y="87" text-anchor="middle" class="tag"><tspan fill="#8b949e">[</tspan>mentor<tspan fill="#8b949e">]</tspan></text>
+  <text x="339" y="55" text-anchor="middle" class="sub">mentoring student hackers</text>
+</g><g class="n" style="animation-delay:1.75s">
+  <circle cx="451" cy="158" r="9" fill="#0d1117" stroke="#ffa657" stroke-width="3"/>
+  <circle cx="451" cy="158" r="3.5" fill="#ffa657"/>
+  <text x="451" y="194" text-anchor="middle" class="t" fill="#ffa657">Internshala</text>
+  <text x="451" y="209" text-anchor="middle" class="tag"><tspan fill="#8b949e">[</tspan>first prod<tspan fill="#8b949e">]</tspan></text>
+  <text x="451" y="224" text-anchor="middle" class="sub">shipping to real users</text>
+</g><g class="n" style="animation-delay:2.20s">
+  <circle cx="563" cy="112" r="9" fill="#0d1117" stroke="#f2cc60" stroke-width="3"/>
+  <circle cx="563" cy="112" r="3.5" fill="#f2cc60"/>
+  <text x="563" y="72" text-anchor="middle" class="t" fill="#f2cc60">XpenseTracker</text>
+  <text x="563" y="87" text-anchor="middle" class="tag"><tspan fill="#8b949e">[</tspan>146★<tspan fill="#8b949e">]</tspan></text>
+  <text x="563" y="55" text-anchor="middle" class="sub">open-source expense manager</text>
+</g><g class="n" style="animation-delay:2.65s">
+  <circle cx="675" cy="158" r="9" fill="#0d1117" stroke="#ff7b72" stroke-width="3"/>
+  <circle cx="675" cy="158" r="3.5" fill="#ff7b72"/>
+  <text x="675" y="194" text-anchor="middle" class="t" fill="#ff7b72">FloBiz</text>
+  <text x="675" y="209" text-anchor="middle" class="tag"><tspan fill="#8b949e">[</tspan>SDE-II<tspan fill="#8b949e">]</tspan></text>
+  <text x="675" y="224" text-anchor="middle" class="sub">myBillBook Android at scale</text>
+</g><g class="n" style="animation-delay:3.10s"><circle class="pulse" cx="787" cy="112" r="9" fill="none" stroke="#39ff14" stroke-width="2"/>
+  <circle cx="787" cy="112" r="9" fill="#0d1117" stroke="#39ff14" stroke-width="3"/>
+  <circle cx="787" cy="112" r="3.5" fill="#39ff14"/>
+  <text x="787" y="72" text-anchor="middle" class="t" fill="#39ff14">NOW</text>
+  <text x="787" y="87" text-anchor="middle" class="tag"><tspan fill="#8b949e">[</tspan>HEAD<tspan fill="#8b949e">]</tspan></text>
+  <text x="787" y="55" text-anchor="middle" class="sub">aiclean · KMM · AI tooling</text>
+</g>
+<text x="24" y="248" font-size="11" fill="#8b949e">$ git checkout future<tspan class="cur" fill="#39ff14">▌</tspan></text>
+<text x="876" y="248" text-anchor="end" font-size="11" fill="#484f58">7 commits · 0 regrets · ∞ refactors</text>
+</svg>
